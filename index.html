@@ -6,9 +6,9 @@
         <title>New Webpage</title>
     </head>
     <body>
- <img src="https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2015/09/abw267-1200x800.jpg" alt="giraffe" >
+ <img src="https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2015/09/abw267-1200x800.jpg" alt="giraffe" onclick="changeImage()" >
 <script>
-           
+           function changeImage() {
                    if (image.alt.match("giraffe")) {
                     image.src = "http://i.telegraph.co.uk/multimedia/archive/03492/giraffe1_3492528b.jpg";
                     image.alt = "giraffe1";
